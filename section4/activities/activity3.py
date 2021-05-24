@@ -7,6 +7,8 @@
 #  -- cadastrar produto
 #  -- listar produto
 #  -- excluir produto
+
+# variavel para armazenar uma lista de 
 lista_produtos = []
 
 def menu():
@@ -28,6 +30,7 @@ def escolhe_operacao(opt):
     elif opt == 3:
         deletar()
 
+# 
 def cadastrar():
     nome = input('Digite o nome do produto: ')
     descricao = input('Digite a descricao do produto: ')
@@ -44,7 +47,7 @@ def listar():
 def deletar():
     listar()
     prod_del = input('Digite o nome do produto que deseja deletar: ')
-    
+
     for p in lista_produtos:
         if p['nome'] == prod_del:
             lista_produtos.remove(p)
