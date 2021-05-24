@@ -2,5 +2,5 @@
 # O modulo deve ter 4 funções:
 #  - Imprimir menu
 #  - Ler opção digitada pelo usuário
-#  - Ler dados do produto
-#  - Listar produtos
+#  - Ler dados do produto e cadastrar
+#  - Listar produtos cadastrados
