@@ -1,0 +1,1 @@
+# tratamento especifico - ValueError 
