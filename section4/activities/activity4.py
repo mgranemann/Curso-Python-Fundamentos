@@ -22,7 +22,7 @@ def cadastrar(nome, descricao, tipo, preco):
     lista.append(bebida)
     return 'Produto cadastrado com sucesso!'
 
-def listar(numero_elementos):
-    if numero_elementos <= len(lista):
+def listar(numero_elementos=None):
+    if numero_elementos and numero_elementos <= len(lista):
         return lista[:numero_elementos]
     return lista
