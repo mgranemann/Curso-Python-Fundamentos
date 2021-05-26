@@ -3,6 +3,7 @@
 try:
     arquivo = open('a.txt', 'x')
 except Exception as erro:
-    print(f'Não foi possivel salvar!\nOcorreu um erro:{erro}')
+    print(f'\n\n\nNão foi possivel salvar!\nOcorreu um erro:{erro}\n\n\n')
+
 
 arquivo = open('a.txt', 'x')
