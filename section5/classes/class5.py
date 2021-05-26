@@ -7,6 +7,6 @@
 
 arquivo = open('arquivo3.txt', 'r')
 for linha in arquivo:
-    linha_limpa = linha.strip()
-    print(linha_limpa)
+    linha_tratada = linha.strip()
+    print(linha_tratada)
 arquivo.close()

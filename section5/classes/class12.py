@@ -1,1 +1,1 @@
-# lancando excecao (raise)
+# lancando excecao 'raise'
